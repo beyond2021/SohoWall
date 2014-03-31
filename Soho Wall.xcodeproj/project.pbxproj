@@ -13,15 +13,54 @@
 		224CF15918E97F9B00AA947C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 224CF15718E97F9B00AA947C /* InfoPlist.strings */; };
 		224CF15B18E97F9B00AA947C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 224CF15A18E97F9B00AA947C /* main.m */; };
 		224CF15F18E97F9C00AA947C /* Beyond2021AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 224CF15E18E97F9C00AA947C /* Beyond2021AppDelegate.m */; };
-		224CF16218E97F9C00AA947C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224CF16018E97F9C00AA947C /* Main_iPhone.storyboard */; };
-		224CF16518E97F9C00AA947C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224CF16318E97F9C00AA947C /* Main_iPad.storyboard */; };
-		224CF16818E97F9C00AA947C /* Beyond2021ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224CF16718E97F9C00AA947C /* Beyond2021ViewController.m */; };
+		224CF16818E97F9C00AA947C /* Beyond2021WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224CF16718E97F9C00AA947C /* Beyond2021WelcomeViewController.m */; };
 		224CF16A18E97F9C00AA947C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224CF16918E97F9C00AA947C /* Images.xcassets */; };
 		224CF17118E97F9C00AA947C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CF17018E97F9C00AA947C /* XCTest.framework */; };
 		224CF17218E97F9C00AA947C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CF14E18E97F9B00AA947C /* Foundation.framework */; };
 		224CF17318E97F9C00AA947C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CF15218E97F9B00AA947C /* UIKit.framework */; };
 		224CF17B18E97F9C00AA947C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 224CF17918E97F9C00AA947C /* InfoPlist.strings */; };
 		224CF17D18E97F9C00AA947C /* Soho_WallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 224CF17C18E97F9C00AA947C /* Soho_WallTests.m */; };
+		224CF18718E9801300AA947C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CF18618E9801300AA947C /* Parse.framework */; };
+		224CF1A318E980C600AA947C /* Anywall.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF18A18E980C600AA947C /* Anywall.png */; };
+		224CF1A418E980C600AA947C /* Anywall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF18B18E980C600AA947C /* Anywall@2x.png */; };
+		224CF1A518E980C600AA947C /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF18C18E980C600AA947C /* bar.png */; };
+		224CF1A618E980C600AA947C /* bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF18D18E980C600AA947C /* bar@2x.png */; };
+		224CF1A718E980C600AA947C /* blueBubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF18E18E980C600AA947C /* blueBubble.png */; };
+		224CF1A818E980C600AA947C /* blueBubble@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF18F18E980C600AA947C /* blueBubble@2x.png */; };
+		224CF1A918E980C600AA947C /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF19018E980C600AA947C /* Button.png */; };
+		224CF1AA18E980C600AA947C /* Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF19118E980C600AA947C /* Button@2x.png */; };
+		224CF1AB18E980C600AA947C /* grayBubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF19218E980C600AA947C /* grayBubble.png */; };
+		224CF1AC18E980C600AA947C /* grayBubble@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF19318E980C600AA947C /* grayBubble@2x.png */; };
+		224CF1AD18E980C600AA947C /* home_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF19418E980C600AA947C /* home_bg@2x.png */; };
+		224CF1AE18E980C600AA947C /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF19518E980C600AA947C /* Icon-72.png */; };
+		224CF1AF18E980C600AA947C /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF19618E980C600AA947C /* Icon-Small-50.png */; };
+		224CF1B018E980C600AA947C /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF19718E980C600AA947C /* Icon-Small.png */; };
+		224CF1B118E980C600AA947C /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF19818E980C600AA947C /* Icon-Small@2x.png */; };
+		224CF1B218E980C600AA947C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF19918E980C600AA947C /* Icon.png */; };
+		224CF1B318E980C600AA947C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF19A18E980C600AA947C /* Icon@2x.png */; };
+		224CF1B418E980C600AA947C /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 224CF19B18E980C600AA947C /* iTunesArtwork */; };
+		224CF1B518E980C600AA947C /* just_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF19C18E980C600AA947C /* just_background.png */; };
+		224CF1B618E980C600AA947C /* just_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF19D18E980C600AA947C /* just_background@2x.png */; };
+		224CF1B718E980C600AA947C /* Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF19E18E980C600AA947C /* Map.png */; };
+		224CF1B818E980C600AA947C /* Map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF19F18E980C600AA947C /* Map@2x.png */; };
+		224CF1B918E980C600AA947C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF1A018E980C600AA947C /* Default.png */; };
+		224CF1BA18E980C600AA947C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF1A118E980C600AA947C /* Default@2x.png */; };
+		224CF1BB18E980C600AA947C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF1A218E980C600AA947C /* Default-568h@2x.png */; };
+		224CF1BD18E980FD00AA947C /* Soho_Real_Wall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 224CF1BC18E980FD00AA947C /* Soho_Real_Wall.jpg */; };
+		224CF1BF18E981A500AA947C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CF1BE18E981A500AA947C /* QuartzCore.framework */; };
+		224CF1C118E981B900AA947C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CF1C018E981B900AA947C /* Security.framework */; };
+		224CF1C318E981F500AA947C /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CF1C218E981F500AA947C /* libz.1.1.3.dylib */; };
+		224CF1C518E9821000AA947C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CF1C418E9821000AA947C /* MobileCoreServices.framework */; };
+		224CF1C718E9822600AA947C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CF1C618E9822600AA947C /* SystemConfiguration.framework */; };
+		224CF1C918E9824000AA947C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CF1C818E9824000AA947C /* CFNetwork.framework */; };
+		224CF1CB18E9825200AA947C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CF1CA18E9825200AA947C /* AudioToolbox.framework */; };
+		224CF1CD18E9826100AA947C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CF1CC18E9826100AA947C /* CoreLocation.framework */; };
+		224CF1CF18E9828300AA947C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CF1CE18E9828200AA947C /* MapKit.framework */; };
+		224CF1D118E98A8700AA947C /* Soho_NavBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 224CF1D018E98A8700AA947C /* Soho_NavBar.png */; };
+		224CF1D518E98EB000AA947C /* Beyond2021WallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224CF1D418E98EB000AA947C /* Beyond2021WallViewController.m */; };
+		224CF1D718E9946600AA947C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224CF16018E97F9C00AA947C /* Main_iPhone.storyboard */; };
+		224CF1D818E9947B00AA947C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224CF16318E97F9C00AA947C /* Main_iPad.storyboard */; };
+		224CF1DC18E9A0A500AA947C /* Buttons.m in Sources */ = {isa = PBXBuildFile; fileRef = 224CF1DB18E9A0A500AA947C /* Buttons.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +86,55 @@
 		224CF15E18E97F9C00AA947C /* Beyond2021AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beyond2021AppDelegate.m; sourceTree = "<group>"; };
 		224CF16118E97F9C00AA947C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		224CF16418E97F9C00AA947C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		224CF16618E97F9C00AA947C /* Beyond2021ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Beyond2021ViewController.h; sourceTree = "<group>"; };
-		224CF16718E97F9C00AA947C /* Beyond2021ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beyond2021ViewController.m; sourceTree = "<group>"; };
+		224CF16618E97F9C00AA947C /* Beyond2021WelcomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Beyond2021WelcomeViewController.h; sourceTree = "<group>"; };
+		224CF16718E97F9C00AA947C /* Beyond2021WelcomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beyond2021WelcomeViewController.m; sourceTree = "<group>"; };
 		224CF16918E97F9C00AA947C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		224CF16F18E97F9C00AA947C /* Soho WallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soho WallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		224CF17018E97F9C00AA947C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		224CF17818E97F9C00AA947C /* Soho WallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Soho WallTests-Info.plist"; sourceTree = "<group>"; };
 		224CF17A18E97F9C00AA947C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		224CF17C18E97F9C00AA947C /* Soho_WallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Soho_WallTests.m; sourceTree = "<group>"; };
+		224CF18618E9801300AA947C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		224CF18A18E980C600AA947C /* Anywall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Anywall.png; sourceTree = "<group>"; };
+		224CF18B18E980C600AA947C /* Anywall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Anywall@2x.png"; sourceTree = "<group>"; };
+		224CF18C18E980C600AA947C /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		224CF18D18E980C600AA947C /* bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar@2x.png"; sourceTree = "<group>"; };
+		224CF18E18E980C600AA947C /* blueBubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBubble.png; sourceTree = "<group>"; };
+		224CF18F18E980C600AA947C /* blueBubble@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueBubble@2x.png"; sourceTree = "<group>"; };
+		224CF19018E980C600AA947C /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		224CF19118E980C600AA947C /* Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button@2x.png"; sourceTree = "<group>"; };
+		224CF19218E980C600AA947C /* grayBubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayBubble.png; sourceTree = "<group>"; };
+		224CF19318E980C600AA947C /* grayBubble@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayBubble@2x.png"; sourceTree = "<group>"; };
+		224CF19418E980C600AA947C /* home_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_bg@2x.png"; sourceTree = "<group>"; };
+		224CF19518E980C600AA947C /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		224CF19618E980C600AA947C /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		224CF19718E980C600AA947C /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		224CF19818E980C600AA947C /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		224CF19918E980C600AA947C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		224CF19A18E980C600AA947C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		224CF19B18E980C600AA947C /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		224CF19C18E980C600AA947C /* just_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = just_background.png; sourceTree = "<group>"; };
+		224CF19D18E980C600AA947C /* just_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "just_background@2x.png"; sourceTree = "<group>"; };
+		224CF19E18E980C600AA947C /* Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map.png; sourceTree = "<group>"; };
+		224CF19F18E980C600AA947C /* Map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Map@2x.png"; sourceTree = "<group>"; };
+		224CF1A018E980C600AA947C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		224CF1A118E980C600AA947C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		224CF1A218E980C600AA947C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		224CF1BC18E980FD00AA947C /* Soho_Real_Wall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Soho_Real_Wall.jpg; sourceTree = "<group>"; };
+		224CF1BE18E981A500AA947C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		224CF1C018E981B900AA947C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		224CF1C218E981F500AA947C /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		224CF1C418E9821000AA947C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		224CF1C618E9822600AA947C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		224CF1C818E9824000AA947C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		224CF1CA18E9825200AA947C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		224CF1CC18E9826100AA947C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		224CF1CE18E9828200AA947C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		224CF1D018E98A8700AA947C /* Soho_NavBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Soho_NavBar.png; sourceTree = "<group>"; };
+		224CF1D318E98EB000AA947C /* Beyond2021WallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beyond2021WallViewController.h; sourceTree = "<group>"; };
+		224CF1D418E98EB000AA947C /* Beyond2021WallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beyond2021WallViewController.m; sourceTree = "<group>"; };
+		224CF1DA18E9A0A500AA947C /* Buttons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Buttons.h; sourceTree = "<group>"; };
+		224CF1DB18E9A0A500AA947C /* Buttons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Buttons.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +143,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				224CF15118E97F9B00AA947C /* CoreGraphics.framework in Frameworks */,
+				224CF1CF18E9828300AA947C /* MapKit.framework in Frameworks */,
+				224CF1CD18E9826100AA947C /* CoreLocation.framework in Frameworks */,
+				224CF1CB18E9825200AA947C /* AudioToolbox.framework in Frameworks */,
+				224CF1C918E9824000AA947C /* CFNetwork.framework in Frameworks */,
+				224CF1C718E9822600AA947C /* SystemConfiguration.framework in Frameworks */,
+				224CF1C518E9821000AA947C /* MobileCoreServices.framework in Frameworks */,
+				224CF1C318E981F500AA947C /* libz.1.1.3.dylib in Frameworks */,
+				224CF1C118E981B900AA947C /* Security.framework in Frameworks */,
+				224CF1BF18E981A500AA947C /* QuartzCore.framework in Frameworks */,
 				224CF15318E97F9B00AA947C /* UIKit.framework in Frameworks */,
+				224CF18718E9801300AA947C /* Parse.framework in Frameworks */,
 				224CF14F18E97F9B00AA947C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +193,16 @@
 		224CF14D18E97F9B00AA947C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				224CF1CE18E9828200AA947C /* MapKit.framework */,
+				224CF1CC18E9826100AA947C /* CoreLocation.framework */,
+				224CF1CA18E9825200AA947C /* AudioToolbox.framework */,
+				224CF1C818E9824000AA947C /* CFNetwork.framework */,
+				224CF1C618E9822600AA947C /* SystemConfiguration.framework */,
+				224CF1C418E9821000AA947C /* MobileCoreServices.framework */,
+				224CF1C218E981F500AA947C /* libz.1.1.3.dylib */,
+				224CF1C018E981B900AA947C /* Security.framework */,
+				224CF1BE18E981A500AA947C /* QuartzCore.framework */,
+				224CF18618E9801300AA947C /* Parse.framework */,
 				224CF14E18E97F9B00AA947C /* Foundation.framework */,
 				224CF15018E97F9B00AA947C /* CoreGraphics.framework */,
 				224CF15218E97F9B00AA947C /* UIKit.framework */,
@@ -114,12 +214,12 @@
 		224CF15418E97F9B00AA947C /* Soho Wall */ = {
 			isa = PBXGroup;
 			children = (
-				224CF15D18E97F9B00AA947C /* Beyond2021AppDelegate.h */,
-				224CF15E18E97F9C00AA947C /* Beyond2021AppDelegate.m */,
+				224CF1D918E9A04700AA947C /* Buttons */,
+				224CF1D218E98E6300AA947C /* View Controllers */,
+				224CF18918E9808400AA947C /* Assets */,
+				224CF18818E9803F00AA947C /* App Delegate */,
 				224CF16018E97F9C00AA947C /* Main_iPhone.storyboard */,
 				224CF16318E97F9C00AA947C /* Main_iPad.storyboard */,
-				224CF16618E97F9C00AA947C /* Beyond2021ViewController.h */,
-				224CF16718E97F9C00AA947C /* Beyond2021ViewController.m */,
 				224CF16918E97F9C00AA947C /* Images.xcassets */,
 				224CF15518E97F9B00AA947C /* Supporting Files */,
 			);
@@ -153,6 +253,69 @@
 				224CF17918E97F9C00AA947C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		224CF18818E9803F00AA947C /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				224CF15D18E97F9B00AA947C /* Beyond2021AppDelegate.h */,
+				224CF15E18E97F9C00AA947C /* Beyond2021AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		224CF18918E9808400AA947C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				224CF1D018E98A8700AA947C /* Soho_NavBar.png */,
+				224CF1BC18E980FD00AA947C /* Soho_Real_Wall.jpg */,
+				224CF18A18E980C600AA947C /* Anywall.png */,
+				224CF18B18E980C600AA947C /* Anywall@2x.png */,
+				224CF18C18E980C600AA947C /* bar.png */,
+				224CF18D18E980C600AA947C /* bar@2x.png */,
+				224CF18E18E980C600AA947C /* blueBubble.png */,
+				224CF18F18E980C600AA947C /* blueBubble@2x.png */,
+				224CF19018E980C600AA947C /* Button.png */,
+				224CF19118E980C600AA947C /* Button@2x.png */,
+				224CF19218E980C600AA947C /* grayBubble.png */,
+				224CF19318E980C600AA947C /* grayBubble@2x.png */,
+				224CF19418E980C600AA947C /* home_bg@2x.png */,
+				224CF19518E980C600AA947C /* Icon-72.png */,
+				224CF19618E980C600AA947C /* Icon-Small-50.png */,
+				224CF19718E980C600AA947C /* Icon-Small.png */,
+				224CF19818E980C600AA947C /* Icon-Small@2x.png */,
+				224CF19918E980C600AA947C /* Icon.png */,
+				224CF19A18E980C600AA947C /* Icon@2x.png */,
+				224CF19B18E980C600AA947C /* iTunesArtwork */,
+				224CF19C18E980C600AA947C /* just_background.png */,
+				224CF19D18E980C600AA947C /* just_background@2x.png */,
+				224CF19E18E980C600AA947C /* Map.png */,
+				224CF19F18E980C600AA947C /* Map@2x.png */,
+				224CF1A018E980C600AA947C /* Default.png */,
+				224CF1A118E980C600AA947C /* Default@2x.png */,
+				224CF1A218E980C600AA947C /* Default-568h@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		224CF1D218E98E6300AA947C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				224CF16618E97F9C00AA947C /* Beyond2021WelcomeViewController.h */,
+				224CF16718E97F9C00AA947C /* Beyond2021WelcomeViewController.m */,
+				224CF1D318E98EB000AA947C /* Beyond2021WallViewController.h */,
+				224CF1D418E98EB000AA947C /* Beyond2021WallViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		224CF1D918E9A04700AA947C /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				224CF1DA18E9A0A500AA947C /* Buttons.h */,
+				224CF1DB18E9A0A500AA947C /* Buttons.m */,
+			);
+			name = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +395,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224CF16518E97F9C00AA947C /* Main_iPad.storyboard in Resources */,
+				224CF1D818E9947B00AA947C /* Main_iPad.storyboard in Resources */,
+				224CF1D718E9946600AA947C /* Main_iPhone.storyboard in Resources */,
+				224CF1A418E980C600AA947C /* Anywall@2x.png in Resources */,
+				224CF1B118E980C600AA947C /* Icon-Small@2x.png in Resources */,
 				224CF16A18E97F9C00AA947C /* Images.xcassets in Resources */,
-				224CF16218E97F9C00AA947C /* Main_iPhone.storyboard in Resources */,
+				224CF1BD18E980FD00AA947C /* Soho_Real_Wall.jpg in Resources */,
+				224CF1A718E980C600AA947C /* blueBubble.png in Resources */,
+				224CF1BB18E980C600AA947C /* Default-568h@2x.png in Resources */,
+				224CF1AC18E980C600AA947C /* grayBubble@2x.png in Resources */,
+				224CF1B718E980C600AA947C /* Map.png in Resources */,
+				224CF1AB18E980C600AA947C /* grayBubble.png in Resources */,
+				224CF1B618E980C600AA947C /* just_background@2x.png in Resources */,
+				224CF1B918E980C600AA947C /* Default.png in Resources */,
+				224CF1A618E980C600AA947C /* bar@2x.png in Resources */,
+				224CF1BA18E980C600AA947C /* Default@2x.png in Resources */,
+				224CF1B018E980C600AA947C /* Icon-Small.png in Resources */,
+				224CF1AA18E980C600AA947C /* Button@2x.png in Resources */,
+				224CF1A918E980C600AA947C /* Button.png in Resources */,
+				224CF1B218E980C600AA947C /* Icon.png in Resources */,
+				224CF1B518E980C600AA947C /* just_background.png in Resources */,
+				224CF1A518E980C600AA947C /* bar.png in Resources */,
+				224CF1D118E98A8700AA947C /* Soho_NavBar.png in Resources */,
+				224CF1AF18E980C600AA947C /* Icon-Small-50.png in Resources */,
+				224CF1A318E980C600AA947C /* Anywall.png in Resources */,
+				224CF1B818E980C600AA947C /* Map@2x.png in Resources */,
+				224CF1B318E980C600AA947C /* Icon@2x.png in Resources */,
+				224CF1B418E980C600AA947C /* iTunesArtwork in Resources */,
+				224CF1A818E980C600AA947C /* blueBubble@2x.png in Resources */,
+				224CF1AE18E980C600AA947C /* Icon-72.png in Resources */,
+				224CF1AD18E980C600AA947C /* home_bg@2x.png in Resources */,
 				224CF15918E97F9B00AA947C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,9 +444,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224CF16818E97F9C00AA947C /* Beyond2021ViewController.m in Sources */,
+				224CF16818E97F9C00AA947C /* Beyond2021WelcomeViewController.m in Sources */,
 				224CF15F18E97F9C00AA947C /* Beyond2021AppDelegate.m in Sources */,
+				224CF1D518E98EB000AA947C /* Beyond2021WallViewController.m in Sources */,
 				224CF15B18E97F9B00AA947C /* main.m in Sources */,
+				224CF1DC18E9A0A500AA947C /* Buttons.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +583,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Soho Wall/Soho Wall-Prefix.pch";
 				INFOPLIST_FILE = "Soho Wall/Soho Wall-Info.plist";
@@ -404,6 +600,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Soho Wall/Soho Wall-Prefix.pch";
 				INFOPLIST_FILE = "Soho Wall/Soho Wall-Info.plist";
